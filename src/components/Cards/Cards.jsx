@@ -28,6 +28,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               Number of active cases of COVID-19.
             </Typography>
           </CardContent>
+          {/* cmt */}
         </Grid>
         <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.recovered)}>
           <CardContent>
